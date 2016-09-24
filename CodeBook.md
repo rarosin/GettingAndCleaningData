@@ -13,6 +13,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ### Transformation
 
 The following steps were permormed during the cleaning process of the data:
+
 1. Union the tables
 2. Keep only the mean and standard deviation for each measurement
 3. Update Y data with activity_labels joining the tables
@@ -24,6 +25,7 @@ The following steps were permormed during the cleaning process of the data:
 ### Resulting variables
 
 As a result of the previously steps, the following variables were generated:
+
 subject
 activity
 tBodyAcc-mean()-X
