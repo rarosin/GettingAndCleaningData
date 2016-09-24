@@ -14,11 +14,11 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The following steps were permormed during the cleaning process of the data:
 
-1. Union the tables
-2. Keep only the mean and standard deviation for each measurement
+1. Union the tables through the comand rbind. For example, X_data is created with the union of X_test and X_train.
+2. Keep only the mean and standard deviation for each measurement in the table X_data
 3. Update Y data with activity_labels joining the tables
-4. Renaming the label of the data tables
-5. Generation of tidy_data through the union of the colums
+4. Rename the label of the data tables: X_data labels received features names
+5. Generation of tidy_data through the union of the colums (cbind)
 6. Generation of tidy_data_2 with the average of each variable for each activity and each subject
 
 
